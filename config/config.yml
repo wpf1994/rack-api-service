@@ -1,0 +1,9 @@
+default: &default
+  domain: 'http://alipay.singularitychina.com'
+  allow_setup: 'true'
+
+development:
+  <<: *default
+
+production:
+  <<: *default
